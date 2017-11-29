@@ -1,2 +1,2 @@
 # test
-Repository used to test things
+Repository used to test things (like bots)
