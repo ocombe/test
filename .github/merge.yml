@@ -23,9 +23,7 @@ requiredStatuses:
   - "code-review/pullapprove"
   - "ci/circleci: build"
   - "ci/circleci: lint"
-
-mergeRemovedComment:
-  - "I don't like to brag, but I just saved you from a horrible, slow and painful death by removing the `{{MERGE_LABEL}}` label. Probably. Maybe...
+mergeRemovedComment: "I don't like to brag, but I just saved you from a horrible, slow and painful death by removing the `{{MERGE_LABEL}}` label. Probably. Maybe...
 \nAnyway, here is why I did that:
 \n{{PLACEHOLDER}}
 \n
