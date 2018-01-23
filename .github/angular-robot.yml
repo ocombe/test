@@ -55,7 +55,7 @@ merge:
 # options for the triage plugin
 triage:
   # number of the milestone to apply when the issue is triaged
-  defaultMilestone: 82,
+  defaultMilestone: 1,
   # arrays of labels that determine if an issue is triaged
   triagedLabels:
     -
