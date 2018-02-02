@@ -27,7 +27,7 @@ merge:
     include:
       - "BUILD.bazel"
       - "LICENSE"
-      - "WORKSPACE",
+      - "WORKSPACE"
       - "modules/**"
       - "packages/**"
     # list of patterns to ignore for the files changed by the PR
