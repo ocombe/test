@@ -87,3 +87,4 @@ triage:
       - "freq"
     -
       - "type: feature"
+      - "comp:"
