@@ -18,12 +18,13 @@ merge:
     # set to true to disable
     disabled: false
     # the name of the status
-    context: "google3-test"
+    context: "google3"
     # text to show when the status is pending
-    pendingDesc: "Verifying this change in google3"
+    pendingDesc: "Googler: test this change in google3 http://go/angular-g3sync"
     # text to show when the status is success
     successDesc: "Does not affect google3"
     # list of patterns to check for the files changed by the PR
+    # this list must be manually kept in sync with google3/third_party/javascript/angular2/copy.bara.sky
     include:
       - "BUILD.bazel"
       - "LICENSE"
@@ -37,6 +38,7 @@ merge:
       - "**/.gitkeep"
 
   # comment that will be added to a PR when there is a conflict, leave empty or set to false to disable
+  # {{PRAuthor}} will be replaced by the value of the PR author name
   mergeConflictComment: "Hi @{{PRAuthor}}! This PR has merge conflicts due to recent upstream merges.
 \nPlease help to unblock it by resolving these conflicts. Thanks!"
 
@@ -49,13 +51,12 @@ merge:
     noConflict: true
     # list of labels that a PR needs to have, checked with a regexp (e.g. "PR target:" will work for the label "PR target: master")
     requiredLabels:
-      - "PR target:"
+      - "PR target: *"
       - "cla: yes"
 
     # list of labels that a PR shouldn't have, checked after the required labels with a regexp
     forbiddenLabels:
       - "PR target: TBD"
-      - "PR action: cleanup"
       - "cla: no"
 
     # list of PR statuses that need to be successful
@@ -65,9 +66,9 @@ merge:
       - "ci/circleci: build"
       - "ci/circleci: lint"
 
-    # the comment that will be added when the merge label is added despite failing checks, leave empty or set to false to disable
-    # {{MERGE_LABEL}} will be replaced by the value of the mergeLabel option
-    # {{PLACEHOLDER}} will be replaced by the list of failing checks
+  # the comment that will be added when the merge label is added despite failing checks, leave empty or set to false to disable
+  # {{MERGE_LABEL}} will be replaced by the value of the mergeLabel option
+  # {{PLACEHOLDER}} will be replaced by the list of failing checks
   mergeRemovedComment: "I see that you just added the `{{MERGE_LABEL}}` label, but the following checks are still failing:
 \n{{PLACEHOLDER}}
 \n
@@ -78,13 +79,14 @@ merge:
 # options for the triage plugin
 triage:
   # number of the milestone to apply when the issue is triaged
-  defaultMilestone: 1,
+  defaultMilestone: 82,
   # arrays of labels that determine if an issue is triaged
   triagedLabels:
     -
       - "type: bug"
-      - "severity"
-      - "freq"
+      - "severity*"
+      - "freq*"
+      - "comp: *"
     -
       - "type: feature"
-      - "comp:"
+      - "comp: *"
