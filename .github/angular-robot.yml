@@ -92,3 +92,9 @@ triage:
     -
       - "type: feature"
       - "comp: *"
+    -
+      - "type: refactor"
+      - "comp: *"
+    -
+      - "type: RFC / Discussion / question"
+      - "comp: *"
