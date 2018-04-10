@@ -86,9 +86,9 @@ merge:
 # options for the triage plugin
 triage:
   # number of the milestone to apply when the issue has not been triaged yet
-  needsTriageMilestone: 83,
+  needsTriageMilestone: 2,
   # number of the milestone to apply when the issue is triaged
-  defaultMilestone: 82,
+  defaultMilestone: 1,
   # arrays of labels that determine if an issue has been triaged by the caretaker
   l1TriageLabels:
     -
