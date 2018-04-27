@@ -10,3 +10,4 @@ buildSummaries
 storeArtifacts
 storeArtifacts
 storeArtifacts
+storeArtifacts
