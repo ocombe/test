@@ -8,3 +8,4 @@
 buildSummaries
 buildSummaries
 storeArtifacts
+storeArtifacts
