@@ -7,3 +7,4 @@
 111111111111111111111111111
 buildSummaries
 buildSummaries
+storeArtifacts
