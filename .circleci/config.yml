@@ -1,0 +1,31 @@
+var_1: &docker_image angular/ngcontainer:0.1.0
+var_2: &cache_key angular-{{ .Branch }}-{{ checksum "yarn.lock" }}-0.1.0
+
+anchor_1: &job_defaults
+  working_directory: ~/ng
+  docker:
+    - image: *docker_image
+
+anchor_2: &post_checkout
+  post: git pull --ff-only origin "refs/pull/${CI_PULL_REQUEST//*pull\//}/merge"
+
+# Opt-in to the new goodness
+version: 2
+
+# These jobs will run in parallel, and report separate statuses to GitHub PRs
+jobs:
+  build:
+    <<: *job_defaults
+    steps:
+      - checkout:
+          <<: *post_checkout
+
+      - store_artifacts:
+          path: size.js
+          destination: size.js
+
+workflows:
+  version: 2
+  default_workflow:
+    jobs:
+      - build
