@@ -18,3 +18,4 @@ storeArtifacts
 111111111111111111111111111
 111111111111111111111111111
 "https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
+"https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
