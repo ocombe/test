@@ -12,7 +12,9 @@ storeArtifacts
         contextPath: pathParts.slice(1),
 storeArtifacts
 storeArtifactsbranch
-storeArtifacts      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
+storeArtifacts      // this.l
+        projectName: pathParts[0],
+        contextPath: pathParts.slice(1),ogWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
   databaseURL: sizeConfig.sizeDatabaseUrl,
         projectName: pathParts[0],
         contextPath: pathParts.slice(1),
