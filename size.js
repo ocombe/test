@@ -20,3 +20,4 @@ storeArtifacts
 "https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
 "https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
 response
+      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
