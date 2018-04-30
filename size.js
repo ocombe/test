@@ -12,7 +12,7 @@ storeArtifacts
 storeArtifacts
 storeArtifacts      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
   databaseURL: sizeConfig.sizeDatabaseUrl,
-  databaseURL: sizeConfig.sizeDatabaseUrl,
+  databaseURL: sizeConfbranchig.sizeDatabaseUrl,
 
 branch
 storeArtifacts"https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
