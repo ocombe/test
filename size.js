@@ -9,7 +9,7 @@ buildSummaries
 buildSummaries
 storeArtifacts
 storeArtifacts
-storeArtifacts
+storeArtifactsbranch
 storeArtifacts      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
   databaseURL: sizeConfig.sizeDatabaseUrl,
   databaseURL: sizeConfbranchig.sizeDatabaseUrl,
