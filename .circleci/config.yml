@@ -22,7 +22,7 @@ jobs:
 
       - store_artifacts:
           path: size.js
-          destination: aio/gzip7/inline.js
+          destination: aio/gzip7/inline
 
 workflows:
   version: 2
