@@ -12,6 +12,8 @@ storeArtifacts
         contextPath: pathParts.slice(1),
         projectName: pathParts[0],
         contextPath: pathParts.slice(1),
+        projectName: pathParts[0],
+        contextPath: pathParts.slice(1),
 storeArtifacts
 storeArtifactsbranch
 storeArtifacts      // this.l
