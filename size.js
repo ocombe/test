@@ -8,6 +8,8 @@
 buildSummaries
 buildSummaries
 storeArtifacts
+        projectName: pathParts[0],
+        contextPath: pathParts.slice(1),
 storeArtifacts
 storeArtifactsbranch
 storeArtifacts      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
