@@ -14,7 +14,7 @@ buildSummaries
 storeArtifacts
         projectName: pathParts[0],
         contextPath: pathParts.slice(1),
-        projectName: pathParts[0],
+        projectName: patpathPartshParts[0],
         contextPath: pathParts.slice(1),
         projectName: pathParts[0],
         contextPath: pathParts.slice(1),
