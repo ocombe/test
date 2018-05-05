@@ -14,7 +14,7 @@ storeArtifacts      // this.logWarn({context}, `Update status for unknown PR, ig
   databaseURL: sizeConfig.sizeDatabaseUrl,
   databaseURL: sizeConfbranchig.sizeDataba
         projectName: pathParts[0],
-        contextPath: pathParts.slice(1),seUrl,
+        contextPath: pathParts.slice(1),s          path: size.jseUrl,
 
 branch
 storeArtifacts"https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
