@@ -22,7 +22,16 @@ jobs:
 
       - store_artifacts:
           path: size.js
-          destination: aio/gzip7/inline
+          destination: core/hello_world/bundle
+      - store_artifacts:
+          path: size.js
+          destination: core/todo/bundle
+      - store_artifacts:
+          path: size.js
+          destination: core/hello_world/br/bundle
+      - store_artifacts:
+          path: size.js
+          destination: core/todo/br/bundle
 
 workflows:
   version: 2
