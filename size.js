@@ -6,7 +6,7 @@
 111111111111111111111111111
 111111111111111111111111111
 buildSummaries
-buildSummariesasdasdsdasd
+buildSummariesasdasds
 storeArtifacts
 storeArtifacts
 storeArtifactsbranch
@@ -26,4 +26,4 @@ storeArtifacts
 "https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
 response
       // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
-222
+
