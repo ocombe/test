@@ -8,7 +8,11 @@ storeArtifacts"https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifa
 storeArtifacts
 1111111111111111111111111111111111112111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 111111111111111111111111111
-111111111111111111111111111"https://circleci.com/api/v1.1/project/github/ocombe/test/3/artifacts"
+111111111111111111111111111"https://circleci.c
+// Load the merge task to monitor PRs
+bot.load(robot => {
+  tasks = registerTasks(robot, store, httpClient, `https://${sizeAppConfig.projectId}.firebaseio.com`);
+});om/api/v1.1/project/github/ocombe/test/3/artifacts"
 "https://circleci.com/api/v1.1/projecst/github/ocombe/test/3/artifacts"
 "https://circleci.com/api/v1.1/project2/github/ocombe/test/3/artifacts"
 response
