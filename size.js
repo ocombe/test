@@ -6,11 +6,7 @@
 branchjectId}.firebaseio.com`);
 });om/api/v1.1/project/github/ocombe/test/3/artifacts"
 "https://circleci.com/api/v1.1/projecst/github/ocombe/test/3/artifacts"
-"https://circleci.com/api/v1.1/project2/github/ocombe/test/3/artifacts"
-response
-      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
-11111111111111111111111111111111111
-// Load the merge task to monitor PRs
+"https://circleci.com/ao monitor PRs
 bot.load(robot => {
   tasks = registerTasks(robot, store, httpClient, `https://${sizeAppConfig.projectId}.firebaseio.com`);
 });1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
