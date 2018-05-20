@@ -1,21 +1,4 @@
 
-      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-1111111.slice(1),seUrl,
-
-branchjectId}.firebaseio.com`);111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-111111111111111111111111111
-111111111111111111111111111
-buildSummaries
-buildSummaries
-storeArtifacts
-storeArtifacts
-storeArtifactsbranch
-storeArtifacts      // this.logWarn({context}, `Update status for unknown PR, ignored. Head sha == ${context.payload.sha}, repository == ${context.payload.repository.id}`);
-  databaseURL: sizeConfig.sizeDatabaseUrl,
-  databaseURL: sizeConfbranchig.sizeDataba
-        projectName: pathParts[0],
-        contextPath: pathParts.slice(1),seUrl,
 
 branch
 branch
