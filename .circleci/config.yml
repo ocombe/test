@@ -22,13 +22,13 @@ jobs:
 
       - store_artifacts:
           path: size.js
-          destination: core/hello_world/bundle
+          destination: core/helloworld/bundle
       - store_artifacts:
           path: size.js
           destination: core/todo/bundle
       - store_artifacts:
           path: size.js
-          destination: core/hello_world/br/bundle
+          destination: core/helloworld/br/bundle
       - store_artifacts:
           path: size.js
           destination: core/todo/br/bundle
