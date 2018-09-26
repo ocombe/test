@@ -112,3 +112,4 @@ triage:
 
 size:
   disabled: false
+  comment: true
