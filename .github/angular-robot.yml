@@ -116,7 +116,7 @@ triage:
       - "type: RFC / Discussion / question"
       - "comp: *"
 
-# options for the triage PR plugin
+# options for the triage PR  plugin
 triagePR:
   # number of the milestone to apply when the issue has not been triaged yet
   needsTriageMilestone: 2,
