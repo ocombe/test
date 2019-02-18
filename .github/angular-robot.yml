@@ -78,6 +78,7 @@ merge:
       - "code-review/pullapprove"
       - "ci/circleci: build"
       - "ci/circleci: lint"
+      - "google3"
 
   # the comment that will be added when the merge label is added despite failing checks, leave empty or set to false to disable
   # {{MERGE_LABEL}} will be replaced by the value of the mergeLabel option
